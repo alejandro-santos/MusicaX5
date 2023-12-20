@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const audio = new Audio();
     const playlists = {
         playlist1: {
-            folder: "/Music/",
+            folder: "/MusicaX5/Music/",
             songs: [
                 "The First Layer.mp3", "Tomorrow.mp3", "TOMORROWLAND.mp3",
                 "Transcendance and Hanezeve.mp3", "Underground River.mp3", "VOH.mp3",
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
               ]
         },
         playlist2: {
-            folder: "/Tainy/",
+            folder: "/MusicaX5/Tainy/",
             songs: [
                 "LA BABY.mp3", "Lo Siento BB.mp3", "mañana.mp3", "me jodi....mp3",
                 "MOJABI GHOST.mp3", "obstáculo.mp3", "PARANORMAL.mp3", "PASIEMPRE.mp3",
