@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+}
+
+#music-player {
+    background-color: #181818;
+    border-radius: 4px;
+    padding: 10px;
+    width: 300px;
+    margin: auto;#progress-container {
+    margin: 10px 0;
+}
+
+#progress-bar {
+    width: 100%;
+    -webkit-appearance: none; /* Override default CSS styles */
+    appearance: none;
+    background: #fff;
+    height: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the slider thumb */
+#progress-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #1db954;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+}
+
+
+/* ... existing CSS ... */
+
+.button-active {
+    color: #1db954!important; /* Spotify's green color */
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#controls button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 8px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#controls button:focus {
+    outline: none;
+}
+
+#playlist {
+    margin: 20px 0;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+#playlist li {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid #333;
+}
+
+#playlist li:hover {
+    background-color: #282828;
+}
+
+#progress-container {
+    width: 100%;
+    margin: 10px 0;
+}
+
+#progress-bar {
+    width: 100%;
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    height: 5px;
+    background: #4caf50; /* Background of progress bar */
+    cursor: pointer; 
+}
+
+#progress-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px; /* Style of slider thumb */
+    height: 15px;
+    background: #fff;
+    cursor: pointer;
+}
+
+#progress-bar::-moz-range-thumb {
+    width: 15px; /* Style of slider thumb */
+    height: 15px;
+    background: #fff;
+    cursor: pointer;
+}
+
+
+#volume-container {
+    width: 100%;
+    margin: 10px 0;
+}
+
+#volume-slider {
+    width: 100%;
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    height: 5px;
+    background: #4caf50; /* Background of volume slider */
+    cursor: pointer; 
+}
+
+#volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px; /* Style of slider thumb */
+    height: 15px;
+    background: #fff;
+    cursor: pointer;
+}
+
+#volume-slider::-moz-range-thumb {
+    width: 15px; /* Style of slider thumb */
+    height: 15px;
+    background: #fff;
+    cursor: pointer;
+}
+
+/* ... existing CSS ... */
+
+.current-song {
+    color: #1db954; /* Spotify's green color */
+}
+
+/* ... existing CSS ... */
+
+#playlist-selector {
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none; /* Removes default styling for browsers using WebKit */
+    -moz-appearance: none; /* Removes default styling for browsers using Mozilla */
+    appearance: none;
+    width: 100%;
+}
+
+#playlist-selection {
+    position: relative;
+}
+
+#playlist-selection:after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    pointer-events: none;
+    color: #333;
+    transform: translateY(-50%);
+}
+
+/* Style focus state */
+#playlist-selector:focus {
+    border-color: #4caf50;
+}
+
+#song-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#song-list li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #e1e1e1;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#song-list li:hover {
+    background-color: #eaeaea;
+}
+
+.current-song {
+    background-color: #4caf50;
+    color: white;
+}
+
+/* Add padding to the last item to not hide behind a scrollbar */
+#song-list li:last-child {
+    padding-bottom: 15px;
+}
