@@ -138,6 +138,23 @@ document.addEventListener('DOMContentLoaded', function() {
         loadPlaylist(this.value);
     });
 
+
+
+    // Load selected playlist and update album cover
+function loadPlaylist(playlistName) {
+    currentFolder = playlists[playlistName].folder;
+    currentPlaylist = playlists[playlistName].songs;
+    currentSong = 0;
+    populatePlaylistUI();
+    updateAlbumCover(playlists[playlistName].albumCover);
+}
+
+// Update the album cover
+function updateAlbumCover(coverPath) {
+    const albumCover = document.getElementById('album-cover');
+    albumCover.src = coverPath;
+}
+
     // ... existing event listeners and functions ...
 
     // Call loadPlaylist initially to load the default playlist
