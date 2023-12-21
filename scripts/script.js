@@ -9,7 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 "You talk too much.mp3", "BELAF LULLABY.mp3", "CAPITAL OF THE UNRETURNED.mp3",
                 "EYES OF IRUMYUUI.mp3", "Faith.mp3", "GRAVITY.mp3", "Hanezeve Caradhina.mp3",
                 "OLD STORIES.mp3", "OUNI.mp3", "reBirth.mp3"
-              ]
+              ],
+              albumCover: "/MusicaX5/AlbumCover/MAB3.jpg"
+            
         },
         playlist2: {
             folder: "/MusicaX5/Tainy/",
@@ -20,7 +22,86 @@ document.addEventListener('DOMContentLoaded', function() {
                 "VOLVER.mp3", "11 Y ONCE.mp3", "BUENOS AIRES.mp3", "COLMILLO.mp3",
                 "CORLEONE INTERLUDE.mp3", "desde las 10 (KANY’S INTERLUDE).mp3", "EN VISTO.mp3",
                 "FANTASMA AVC.mp3"
+              ],
+              albumCover: "/MusicaX5/AlbumCover/DATA.jpg"
+        },
+        playlist3: {
+            folder: "/MusicaX5/Unreal Unearth/",
+            songs: [
+                "I, Carrion (Icarian).mp3", "Son of Nyx.mp3",
+                "To Someone From A Warm Climate (Uiscefhuaraithe).mp3", "Unknown Nth.mp3",
+                "Who We Are.mp3", "Abstract (Psychopomp).mp3", "All Things End.mp3",
+                "Anything But.mp3", "Butchered Tongue.mp3", "Damage Gets Done.mp3",
+                "De Selby (Part 1).mp3", "De Selby (Part 2).mp3", "Eat Your Young.mp3",
+                "First Light.mp3", "First Time.mp3", "Francesca.mp3", "In The Woods Somewhere.mp3"
               ]
+              ,albumCover: "/MusicaX5/AlbumCover/UnrealUnearth.jpg"
+        },
+        playlist4: {
+            folder: "/MusicaX5/Noah Kahan/",
+            songs: [
+                "Come Over.mp3", "Dial Drunk.mp3", "Everywhere, Everything.mp3",
+                "Growing Sideways.mp3", "Halloween.mp3", "Homesick.mp3",
+                "New Perspective.mp3", "No Complaints.mp3", "Northern Attitude.mp3",
+                "Orange Juice.mp3", "Paul Revere.mp3", "She Calls Me Back.mp3",
+                "Stick Season.mp3", "Still.mp3", "Strawberry Wine.mp3",
+                "The View Between Villages - Extended.mp3", "The View Between Villages.mp3",
+                "You’re Gonna Go Far.mp3", "Your Needs, My Needs.mp3", "All My Love.mp3",
+                "Call Your Mom.mp3"
+              ],
+              albumCover: "/MusicaX5/AlbumCover/StickSeason.jpg"
+        },
+        playlist5: {
+            folder: "/MusicaX5/Cry/",
+            songs: [
+                "Heavenly.mp3", "Hentai.mp3", "Kiss It Off Me.mp3", "Pure.mp3",
+                "Touch.mp3", "You're the Only Good Thing In My Life.mp3",
+                "Cry.mp3", "Don't Let Me Go.mp3", "Falling In Love.mp3", "Sunsetz.mp3", 
+                "Sweet.mp3", "Truly.mp3", "Young & Dumb.mp3",
+                "Apocalypse.mp3", "Each Time You Fall in Love.mp3", "Flash.mp3",
+                "John Wayne.mp3", "K..mp3", "Opera House.mp3"
+              ],
+              albumCover: "/MusicaX5/AlbumCover/CAS.jpg"
+        },
+
+        playlist6: {
+            folder: "/17/",
+            songs: ["The Explanation.mp3", "Jocelyn Flores.mp3", 
+            "Depression & Obsession.mp3", "Everybody Dies in Their Nightmares.mp3", "Revenge.mp3", "Save Me.mp3", "Dead Inside (Interlude).mp3", 
+            "Fuck Love.mp3", "Carry On.mp3", "Orlando.mp3", 
+            "Ayala (Outro).mp3"]
+            ,
+              albumCover: "/MusicaX5/AlbumCover/17.png"
+        },
+
+        playlist7: {
+            folder: "/MusicaX5/XXXTENTACION/",
+            songs: ["Introduction (instructions).mp3", "ALONE, PART 3.mp3", "Moonlight.mp3", "SAD!.mp3", 
+            "the remedy for a broken heart (why am I so in love).mp3", "Floor 555.mp3", "NUMB.mp3", "infinity (888) - feat. Joey Bada$$.mp3", "going down!.mp3", 
+            "Pain = BESTFRIEND (feat. Travis Barker).mp3", "$$$.mp3", "love yourself (interlude).mp3", "SMASH! - feat. PnB Rock.mp3",
+             "I dont even speak spanish lol.mp3", "changes.mp3", 
+            "Hope.mp3", "schizophrenia.mp3", "before I close my eyes.mp3"]
+
+            ,
+              albumCover: "/MusicaX5/AlbumCover/XXXTENTACION.png"
+        },
+
+        playlist8: {
+            folder: "/MusicaX5/Sleep/",
+            songs: [
+                "Present.mp3", "Remnants of Departed Days.mp3", "Reverence.mp3", 
+                "She Passed Away Alone At Sea.mp3", "Stjärna.mp3", "The Highlands Walk.mp3", 
+                "The Illusion of Motion.mp3", "The Light Dances Around Our Feet.mp3", 
+                "To the Child Drifting Out At Sea.mp3", "When I Look Down on Your Grave.mp3", 
+                "You Are Quietly Disappearing Before Me.mp3", 
+                "A Cold Memory of You That's Beginning To Freeze Over.mp3", "After The Rain.mp3", 
+                "Aftonland.mp3", "April.mp3", "As We Lose Sight of the Place We Once Longed For.mp3", 
+                "At 25,000 Miles Per Hour.mp3", "Broken Air.mp3", "Coalesce.mp3", 
+                "I Am Beyond Sorry (For Everything).mp3", "I Could Almost Feel You.mp3", 
+                "Jacob and the Stone.mp3", "Lullaby.mp3", "Memories Are All That I Have Left.mp3", 
+                "Part Of Me, Apart From Me.mp3"
+              ],
+              albumCover: "/MusicaX5/AlbumCover/owsey.jpg"
         }
         // Add more playlists as needed
     };
