@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
 
         playlist6: {
-            folder: "/17/",
+            folder: "/MusicaX5/17/",
             songs: ["The Explanation.mp3", "Jocelyn Flores.mp3", 
             "Depression & Obsession.mp3", "Everybody Dies in Their Nightmares.mp3", "Revenge.mp3", "Save Me.mp3", "Dead Inside (Interlude).mp3", 
             "Fuck Love.mp3", "Carry On.mp3", "Orlando.mp3", 
