@@ -102,6 +102,30 @@ document.addEventListener('DOMContentLoaded', function() {
                 "Part Of Me, Apart From Me.mp3"
               ],
               albumCover: "/MusicaX5/AlbumCover/owsey.jpg"
+        },
+
+        playlist8: {
+            folder: "/MusicaX5/snst/",
+            songs: [
+                "Paradise.mp3", "Paranoia.mp3", "Peach.mp3", "Pink + White.mp3", "Redbone.mp3",
+                "Self Control.mp3", "Self.mp3", "Selfish.mp3", "Skin.mp3", "Sofia.mp3",
+                "Star Shopping.mp3", "Still.mp3", "Summertime In Paris.mp3", "Taking Pictures Of You.mp3",
+                "Tethered Bones - Slow Magic Remix.mp3", "The Color Violet.mp3", "This Time.mp3",
+                "Throwaway (with Clairo).mp3", "waves - Tame Impala Remix.mp3", "Where's My Love - Acoustic.mp3",
+                "White Ferrari.mp3", "Wish You Well.mp3", "Wrong About Forever.mp3", "Yes I'm Changing.mp3",
+                "16.mp3", "Alive.mp3", "As You Are.mp3", "Better.mp3", "Casual.mp3",
+                "Cayendo (Side A - Acoustic).mp3", "Chanel.mp3", "Come Back to Earth.mp3",
+                "Come Over (Remix).mp3", "Cruel.mp3", "CYANIDE.mp3", "Die For You.mp3",
+                "Electric (feat. Khalid).mp3", "Eventually.mp3", "Feels Like We Only Go Backwards.mp3",
+                "Floating (feat. Khalid).mp3", "Free Mind.mp3", "Guilty Conscience - Tame Impala Remix.mp3",
+                "Guilty Conscience.mp3", "Hardest To Love.mp3", "Higher.mp3", "How Did I Get Here.mp3",
+                "Hurts Me.mp3", "I Wanna Be Yours.mp3", "In My Room.mp3",
+                "Instant Crush (feat. Julian Casablancas).mp3", "Into It.mp3", "Ivy.mp3",
+                "Lady Of Namek.mp3", "Last Call.mp3", "Lavender Sunflower.mp3",
+                "Line Of Sight.mp3", "Lost.mp3", "Midnight City.mp3", "Miss Summer.mp3",
+                "Moon.mp3", "Motion.mp3", "Nights.mp3", "Nikes.mp3", "Novacane.mp3", "Otherside.mp3"
+              ],
+              albumCover: "/MusicaX5/AlbumCover/snst.png"
         }
         // Add more playlists as needed
     };
