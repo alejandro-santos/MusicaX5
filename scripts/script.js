@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
               albumCover: "/MusicaX5/AlbumCover/owsey.jpg"
         },
 
-        playlist8: {
+        playlist9: {
             folder: "/MusicaX5/snst/",
             songs: [
                 "Paradise.mp3", "Paranoia.mp3", "Peach.mp3", "Pink + White.mp3", "Redbone.mp3",
